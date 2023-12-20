@@ -41,8 +41,11 @@ goreleaser release --snapshot --rm-dist
 
 ## Check folder `dist`
 
-## Create tag to release `0.0.1`
+## Create tag `0.0.1` and release
 
 ```bash
 git tag -a 0.0.1
+goreleaser --rm-dist
 ```
+
+
